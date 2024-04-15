@@ -1,0 +1,1 @@
+create table ashokit_employees(employee_id number,employee_name varchar2(50),email_id varchar2(100));

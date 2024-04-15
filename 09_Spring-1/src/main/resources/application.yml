@@ -1,0 +1,20 @@
+Adress: Data Configration
+com:
+  ashokit:
+    address:
+      cityName: Hyderabad
+      doorNo: 1-2-4-
+      streetName: Ameerpet
+    billAmount: 30000
+    colors: Orange,Red,Yellow,Blue
+    customerId: AIT234
+    customerName: Manoj
+designation: SoftwareEngineer
+employeeId: AIT111
+employeeName: Vinod
+salary: 25000
+spring:
+  application:
+    name: SpringBoot
+  banner:
+    location: classpath:banner.txt
