@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>All Tickets</title>
+</head>
+<body>
+    <h1>All Tickets</h1>
+    
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Ticket ID</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Loop through tickets and display each ticket -->
+            <tr th:each="ticket : ${tickets}">
+                <td th:text="${ticket.ticketId}"></td>
+                <td th:text="${ticket.status}"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
